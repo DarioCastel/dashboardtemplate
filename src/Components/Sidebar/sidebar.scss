@@ -1,0 +1,84 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(248, 230, 221);
+  min-height: 100vh;
+  background-color: white;
+
+  .top {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: tomato;
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(248, 230, 221);
+  }
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .tittle {
+        font-size: 15px;
+        font-weight: bold;
+        color: grey;
+        padding-bottom: 3px;
+        margin-top: 10px;
+      }
+
+      li{
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(235, 235, 235);
+        }
+
+        .icon{
+            color: red;
+        }
+        span{
+            color:rgb(110, 24, 24);
+            padding: 3px;
+        }
+      }
+    }
+  }
+
+  .bottom{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    .buttonColor{
+        background-color: red;
+        width: 35px;
+        height: 35px;
+        border-radius: 7px;
+        margin: 7px;
+        cursor: pointer;
+        border: 2px solid black;
+
+        &:nth-child(1){
+            background-color: white;
+        }
+
+        &:nth-child(2){
+            background-color: black;
+        }
+    }
+  }
+}

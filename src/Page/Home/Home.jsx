@@ -3,20 +3,21 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import { Widget } from "../../Components/widget/Widget";
 import "./home.scss";
+import Grafica from "../../Components/laGrafica/grafica";
 
 const Home = () => {
   return (
     <div className="home">
       <Sidebar />
       <div className="homeconteiner">
-        <Navbar/>
+        <Navbar />
         <div className="widgets">
-          <Widget/>
-        <Widget/>
-        <Widget/>
-        <Widget/>
+          <Widget />
+          <Widget />
+          <Widget />
+          <Widget />
         </div>
-        
+        <Grafica/>
       </div>
     </div>
   );

@@ -4,7 +4,9 @@ import "./widget.scss";
 export const Widget = () => {
   return (<div className="widget">
            <div className="divUp">
-            up
+            <div className="tittle">
+              Up
+              </div>
             </div>
            <div className="divDown">
             down

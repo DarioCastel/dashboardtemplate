@@ -1,9 +1,9 @@
 import React from "react";
+import Grafica from "../../Components/laGrafica/Grafica";
 import Navbar from "../../Components/Navbar/Navbar";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import { Widget } from "../../Components/widget/Widget";
 import "./home.scss";
-import Grafica from "../../Components/laGrafica/grafica";
 
 const Home = () => {
   return (

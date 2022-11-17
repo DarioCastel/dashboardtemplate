@@ -2,5 +2,12 @@
     display: flex;
     .homeconteiner{
         flex: 5;
+        .widgets{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            
+        }
+
     }
 }

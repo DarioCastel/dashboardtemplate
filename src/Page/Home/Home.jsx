@@ -1,18 +1,25 @@
-import React from 'react'
-import Sidebar from '../../Components/Sidebar/Sidebar'
-import './home.scss'
-
+import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
+import Sidebar from "../../Components/Sidebar/Sidebar";
+import { Widget } from "../../Components/widget/Widget";
+import "./home.scss";
 
 const Home = () => {
   return (
-    
-        <div className="home">
-        <Sidebar/>
-        <div className="homeconteiner">dashboard</div>
+    <div className="home">
+      <Sidebar />
+      <div className="homeconteiner">
+        <Navbar/>
+        <div className="widgets">
+          <Widget/>
+        <Widget/>
+        <Widget/>
+        <Widget/>
         </div>
-    
+        
+      </div>
+    </div>
+  );
+};
 
-  )
-}
-
-export default Home
+export default Home;

@@ -3,6 +3,7 @@ import Grafica from "../../Components/laGrafica/Grafica";
 import Navbar from "../../Components/Navbar/Navbar";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import { Widget } from "../../Components/widget/Widget";
+import WTable from "../../Components/widgetTable/WTable";
 import "./home.scss";
 
 const Home = () => {
@@ -17,7 +18,10 @@ const Home = () => {
           <Widget />
           <Widget />
         </div>
-        <Grafica/>
+        <div className="homeTable">
+          <WTable/>
+          <Grafica/>
+        </div>
       </div>
     </div>
   );

@@ -34,8 +34,8 @@ const Sidebar = () => {
           </li>
           <p className="tittle">SERVICES</p>
           <li>
-            <LocalGroceryStoreIcon className="icon"/>
-            <span> Products</span>
+            <DvrIcon className="icon"/>
+            <span> Stock</span>
           </li>
           <li>
             <AddShoppingCartIcon className="icon"/>
@@ -44,10 +44,6 @@ const Sidebar = () => {
           <li>
             <SellIcon className="icon"/>
             <span> Sells</span>
-          </li>
-          <li>
-            <DvrIcon className="icon"/>
-            <span> Stock</span>
           </li>
           <p className="tittle">INFO</p>
           <li>

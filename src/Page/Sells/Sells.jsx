@@ -1,13 +1,13 @@
 import React from 'react'
 import List from '../../Components/List/List'
-import "./products.scss"
+import "./sells.scss"
 
-const Products = () => {
+const Sells = () => {
   return (
     <>
-    <List/>
+        <List/>
     </>
   )
 }
 
-export default Products
+export default Sells

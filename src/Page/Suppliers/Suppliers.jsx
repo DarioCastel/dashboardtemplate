@@ -1,11 +1,20 @@
 import React from 'react'
-import List from '../../Components/List/List'
+import Navbar from '../../Components/Navbar/Navbar'
+import Sidebar from '../../Components/Sidebar/Sidebar'
 import "./suppliers.scss"
 
 const Suppliers = () => {
   return (
   <>
-  <List/>
+  <div className='pagSuppliers'>
+      <Sidebar/>
+      <div className="conteinerSuppliers">
+      <Navbar/>
+      aca va la tabla
+      </div>
+      
+    
+    </div>
   </>
   )
 }

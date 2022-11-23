@@ -1,10 +1,19 @@
 import React from 'react'
-import List from '../../Components/List/List'
+import Navbar from '../../Components/Navbar/Navbar'
+import Sidebar from '../../Components/Sidebar/Sidebar'
 import "./clients.scss"
 
 const Clients = () => {
   return (<>
-    <List/>
+    <div className='pagClients'>
+      <Sidebar/>
+      <div className="conteinerClient">
+      <Navbar/>
+      aca va la tabla
+      </div>
+      
+    
+    </div>
   </>
   )
 }

@@ -1,11 +1,20 @@
 import React from 'react'
-import List from '../../Components/List/List'
+import Navbar from '../../Components/Navbar/Navbar'
+import Sidebar from '../../Components/Sidebar/Sidebar'
 import "./statics.scss"
 
 const Statics = () => {
   return (
     <>
-        <List/>
+        <div className='pagStatics'>
+      <Sidebar/>
+      <div className="conteinerStatics">
+      <Navbar/>
+      aca va la tabla
+      </div>
+      
+    
+    </div>
     </>
   )
 }

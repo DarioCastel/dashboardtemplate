@@ -1,8 +1,57 @@
 .pagClients{
     display: flex;
-    
+    .contImg{
+        display: flex;
+        align-items: center;
+        .img{
+            width: 35px;
+            height: 35px;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
     .conteinerClient{
         flex: 5;
-      
+        .title{
+            margin: 10px;
+            font-size: 25px;
+            padding-bottom: 5px;
+            color:  #aab7b8
+            ;
+        }
+      .contTabClient{
+       margin: 10px;
+       padding: 10px;
+       align-items: center;
+       
+      }
+    }
+    .contButton{
+        display: flex;
+        align-content: center;
+        gap: 15px;
+        .delete{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: red;
+            border: 1px solid rgb(253, 153, 153);
+            cursor: pointer;
+            &:hover{
+                background-color: red;
+                color: white;
+            }
+
+        }
+        .detail{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: blue;
+            border: 1px solid rgb(145, 145, 253);
+            cursor: pointer;
+            &:hover{
+                background-color: blue;
+                color: white;
+            }
+        }
     }
 }
